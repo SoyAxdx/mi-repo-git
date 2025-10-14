@@ -1,0 +1,75 @@
+/* Contenedor principal */
+.contenedor {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #333;
+}
+
+/* Estilos base para todos los bordes */
+.borde {
+    padding: 20px;
+    margin: 15px 0;
+    border-style: solid;
+    border-color: #333;
+    text-align: center;
+    font-weight: bold;
+    background-color: #f9f9f9;
+}
+
+/* Valores preestablecidos */
+.borde.thin {
+    border-width: thin;
+}
+
+.borde.medium {
+    border-width: medium;
+}
+
+.borde.thick {
+    border-width: thick;
+}
+
+/* Valores en píxeles */
+.borde.px1 {
+    border-width: 1px;
+}
+
+.borde.px2 {
+    border-width: 2px;
+}
+
+.borde.px3 {
+    border-width: 3px;
+}
+
+.borde.px4 {
+    border-width: 4px;
+}
+
+.borde.px5 {
+    border-width: 5px;
+}
+
+.borde.px6 {
+    border-width: 6px;
+}
+
+.borde.px8 {
+    border-width: 8px;
+}
+
+.borde.px10 {
+    border-width: 10px;
+}
+
+/* Corrección del ejemplo (tenía errores) */
+/* 
+border-width: trivial; ❌ INCORRECTO (debe ser: thin, medium, thick)
+border-style: trivial; ❌ INCORRECTO (debe ser: solid, dashed, dotted, etc.)
+*/

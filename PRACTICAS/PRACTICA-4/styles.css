@@ -1,0 +1,51 @@
+/* 
+   Archivo: estilo.css
+   Autor: [Andy Pitterson]
+   Fecha: 13 de Octubre de 2024
+   Descripción: Estilos para la práctica 4 - CSS Importado
+*/
+
+/* Estilo para el cuerpo de la página */
+body {
+    background-color: #ff0000; /* Color de fondo rojo */
+    font-family: Arial;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+/* Estilos para los párrafos */
+p {
+    font-family: 'Tahoma';
+    font-size: 24px;
+    font-weight: bold; /* Negrita */
+    text-align: center;
+}
+
+/* Estilos para títulos */
+h1 {
+    text-align: center;
+    color: white; /* Color blanco */
+}
+
+h2 {
+    color: #0066cc; /* Color azul */
+}
+
+/* Clase para ejemplos */
+.ejemplo {
+    background: white;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 5px;
+}
+
+/* Estilos para código */
+code {
+    background: #2d2d2d;
+    color: white;
+    padding: 10px;
+    display: block;
+    margin: 10px 0;
+    font-family: monospace;
+}

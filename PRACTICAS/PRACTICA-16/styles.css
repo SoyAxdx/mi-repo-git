@@ -1,0 +1,63 @@
+/* Eliminar decoración de enlaces con imágenes */
+.enlace-imagen {
+    text-decoration: none;
+    border: none;
+    display: inline-block;
+    padding: 10px;
+    background-color: #f0f0f0;
+    margin: 10px 0;
+}
+
+/* Contenedor principal */
+.contenedor {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ccc;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #333;
+}
+
+/* Tabla de colores */
+.colores {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.color {
+    padding: 15px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+/* Colores ROJOS */
+.rojo-nombre { background-color: red; }
+.rojo-hex { background-color: #FF0000; }
+.rojo-rgb { background-color: rgb(255, 0, 0); }
+.rojo-hsl { background-color: hsl(0, 100%, 50%); }
+
+/* Colores VERDES */
+.verde-nombre { background-color: green; }
+.verde-hex { background-color: #00FF00; }
+.verde-rgb { background-color: rgb(0, 255, 0); }
+.verde-hsl { background-color: hsl(120, 100%, 50%); }
+
+/* Colores AZULES */
+.azul-nombre { background-color: blue; }
+.azul-hex { background-color: #0000FF; }
+.azul-rgb { background-color: rgb(0, 0, 255); }
+.azul-hsl { background-color: hsl(240, 100%, 50%); }
+
+/* Colores AMARILLOS */
+.amarillo-nombre { background-color: yellow; color: black; }
+.amarillo-hex { background-color: #FFFF00; color: black; }
+.amarillo-rgb { background-color: rgb(255, 255, 0); color: black; }
+.amarillo-hsl { background-color: hsl(60, 100%, 50%); color: black; }

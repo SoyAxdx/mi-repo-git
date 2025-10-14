@@ -1,0 +1,59 @@
+/* Contenedor principal */
+.contenedor {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #333;
+}
+
+/* Diferentes formatos de background-color */
+section {
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Color por NOMBRE */
+.fondo-nombre {
+    background-color: red;
+}
+
+/* Color HEX */
+.fondo-hex {
+    background-color: #FF0000;
+}
+
+/* Color RGB */
+.fondo-rgb {
+    background-color: rgb(255, 0, 0);
+}
+
+/* Color HSL */
+.fondo-hsl {
+    background-color: hsl(0, 100%, 50%);
+}
+
+/* Colores adicionales */
+.fondo-verde {
+    background-color: green;
+}
+
+.fondo-azul {
+    background-color: blue;
+}
+
+/* Corrección del ejemplo (tenía errores) */
+/* 
+section { background-color: r=8; } ❌ INCORRECTO
+section { background-color: r#F8080; } ❌ INCORRECTO  
+section { background-color: rgb(255,9,0); } ✅ (casi correcto)
+section { background-color: h1(9,100%,100%); } ❌ INCORRECTO
+*/

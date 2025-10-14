@@ -1,0 +1,21 @@
+/* 
+   Práctica 5: Selector Universal y Comentarios
+   Ejemplo de comentarios multi-línea
+*/
+
+/* Selector Universal - aplica a TODOS los elementos */
+* {
+    color: red; /* Define color rojo para todo el texto */
+}
+
+/* Comentarios para anular código */
+body {
+    background-color: #ff0000; /* define color de fondo */
+}
+
+p {
+    /* font-family: 'Tahoma';  - Fuente comentada */
+    /* font-size: 24px;       - Tamaño comentado */
+    font-weight: bold;        /* define el texto en negrita */
+    text-align: center;       /* define alineación centrada */
+}

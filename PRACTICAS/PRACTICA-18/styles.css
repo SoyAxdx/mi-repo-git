@@ -1,0 +1,65 @@
+/* Contenedor principal */
+.contenedor {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ccc;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #333;
+}
+
+/* Diferentes formatos de color para texto */
+p {
+    padding: 15px;
+    margin: 10px 0;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* Color por NOMBRE */
+.texto-nombre {
+    color: blue;
+}
+
+/* Color HEX */
+.texto-hex {
+    color: #0000FF;
+}
+
+/* Color RGB */
+.texto-rgb {
+    color: rgb(0, 0, 255);
+}
+
+/* Color HSL */
+.texto-hsl {
+    color: hsl(240, 100%, 50%);
+}
+
+/* Colores adicionales */
+.texto-rojo {
+    color: red;
+}
+
+.texto-verde {
+    color: green;
+}
+
+.texto-morado {
+    color: purple;
+}
+
+/* Corrección del ejemplo (tenía errores) */
+/* 
+p { color: blue; } ✅ CORRECTO
+p { color: #8080FF; } ✅ (pero es azul claro)
+p { color: rgb(0,0,255); } ✅ CORRECTO  
+p { color: hsl(240,6%,168%); } ❌ INCORRECTO (168% no existe)
+*/

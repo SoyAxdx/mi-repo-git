@@ -1,0 +1,50 @@
+/* Agrupación de reglas para p y h1 */
+p, h1 {
+    font-family: tahoma;
+    color: #ff0000;
+    text-align: center;
+}
+
+/* Estilos individuales para h2 */
+h2 {
+    font-family: tahoma;
+    color: #ff6666;
+    text-align: center;
+}
+
+/* Modelo de Cajas */
+.caja1 {
+    width: 300px;
+    height: 100px;
+    background-color: lightblue;
+    margin: 10px;
+    padding: 15px;
+    border: 2px solid blue;
+}
+
+.caja2 {
+    width: 50%;
+    height: 80px;
+    background-color: lightgreen;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid green;
+}
+
+.caja3 {
+    width: 200px;
+    height: 120px;
+    background-color: lightcoral;
+    margin: 20px;
+    padding: 25px;
+    border: 3px solid red;
+}
+
+.contenedor {
+    width: 80%;
+    height: 150px;
+    background-color: lightyellow;
+    margin: 15px auto;
+    padding: 20px;
+    border: 2px solid orange;
+}

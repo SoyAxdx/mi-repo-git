@@ -1,0 +1,26 @@
+/* Selector de ID - único en la página */
+#formato {
+    color: red;
+    font-family: tahoma;
+    font-size: 24px;
+    text-align: center;
+    background-color: lightyellow;
+    padding: 15px;
+}
+
+/* Selector Hijo - solo hijos DIRECTOS */
+.contenedor > p {
+    color: blue;
+    font-weight: bold;
+    background-color: lightblue;
+    padding: 10px;
+}
+
+/* Selector Hijo con lista */
+.menu > li {
+    color: green;
+    font-size: 18px;
+    margin: 5px 0;
+    background-color: #f0f0f0;
+    padding: 8px;
+}
