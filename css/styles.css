@@ -1,0 +1,258 @@
+/* Estilos generales */
+body {
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    color: #44444d;
+}
+
+h1, h2, h3 {
+    margin: 0;
+    font-family: "Roboto Slab", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+}
+
+.boton {
+    color: #f1f1f1;
+    text-decoration: none;
+    padding: 10px 30px;
+    background-color: #8f3faf;
+    font-size: .9em;
+    border-radius: 3px;
+    display: inline-block;
+}
+
+/* Diseño de la navegación */
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #44444d;
+    padding: 15px 0;
+}
+
+nav .logo {
+    text-decoration: none;
+    color: #f1f1f1;
+    font-weight: 700;
+    font-size: 28px;
+    font-family: Pacifico, serif;
+    margin-bottom: 15px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+nav ul li {
+    text-align: center;
+    width: 100%;
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 10px 0;
+    width: 100%;
+    text-decoration: none;
+    color: #f1f1f1;
+}
+
+/* Diseño de la cabecera header */
+header {
+    background-image: url('../img/fundo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #f1f1f1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 40px 20px;
+    height: 60vh;
+    justify-content: center;
+}
+
+header p {
+    margin-bottom: 2em;
+    max-width: 600px;
+}
+
+/* Aplicando diseño al id sobre */
+#sobre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #8f3faf;
+    color: #f1f1f1;
+    height: 30vh;
+    justify-content: center;
+    min-height: 250px;
+}
+
+#sobre p {
+    margin-bottom: 2.5em;
+    max-width: 1000px;
+}
+
+#sobre .boton {
+    background-color: #f1f1f1;
+    color: #4d4d4d;
+}
+
+/* Aplicando estilos al id servicios */
+#servicios {
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#servicios h2 {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+#servicios div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+    flex-grow: 1;
+    flex-basis: 150px;
+    padding: 0 10px;
+}
+
+#servicios p {
+    text-align: center;
+    width: 100%;
+    max-width: 800px;
+}
+
+/* Agregando diseño al portafolio */
+#portafolio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+}
+
+#portafolio h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+#portafolio p {
+    text-align: center;
+    width: 100%;
+    max-width: 800px;
+    margin-bottom: 30px;
+}
+
+#portafolio img {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+/* Agregando diseño a la sección de contacto */
+#contacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 40px;
+    padding: 40px 20px;
+}
+
+#contacto h2,
+#contacto p {
+    width: 100%;
+}
+
+#contacto div {
+    margin: 15px 0;
+}
+
+aside {
+    background-color: #8f3faf;
+    font-size: .9em;
+    border-radius: 3px;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    margin: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #44444d;
+    color: #f1f1f1;
+}
+
+/* Media Queries para Tablet */
+@media (min-width: 768px) {
+    nav {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 15px 40px;
+    }
+    
+    nav ul {
+        flex-direction: row;
+        width: auto;
+    }
+    
+    nav ul li {
+        width: auto;
+        margin: 0 15px;
+    }
+    
+    #servicios {
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+    
+    #portafolio {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    #portafolio img {
+        width: 33.3333333333%;
+    }
+    
+    #contacto {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        max-width: 580px;
+        margin: 0 auto;
+    }
+}
+
+/* Media Queries para Desktop */
+@media (min-width: 1024px) {
+    nav {
+        padding: 15px 80px;
+    }
+    
+    header {
+        height: 70vh;
+    }
+    
+    #sobre {
+        height: 35vh;
+    }
+}
