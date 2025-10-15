@@ -1,0 +1,61 @@
+/* Contenedor principal */
+.contenedor {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #333;
+}
+
+/* Diferentes formatos de border-color */
+section {
+    padding: 20px;
+    margin: 15px 0;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    background-color: #f9f9f9;
+}
+
+/* Color por NOMBRE */
+.borde-nombre {
+    border-color: black;
+}
+
+/* Color HEX */
+.borde-hex {
+    border-color: #000000;
+}
+
+/* Color RGB */
+.borde-rgb {
+    border-color: rgb(0, 0, 0);
+}
+
+/* Color HSL */
+.borde-hsl {
+    border-color: hsl(0, 0%, 0%);
+}
+
+/* Colores adicionales */
+.borde-rojo {
+    border-color: red;
+}
+
+.borde-azul {
+    border-color: blue;
+}
+
+/* Corrección del ejemplo (tenía errores) */
+/* 
+section { border-color: black; } ✅ CORRECTO
+section { border-color: #888888; } ✅ (pero es gris, no negro)
+section { border-color: rgb(0,0,0); } ✅ CORRECTO  
+section { border-color: hsl(0,6N,8K); } ❌ INCORRECTO (valores inválidos)
+*/

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Práctica 10: ID y Selector Hijo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Práctica 10: Selector ID e Hijo</h1>
+    
+    <!-- Selector de ID -->
+    <p id="formato">
+        Selector de identificación - Único en la página
+    </p>
+    
+    <!-- Selector Hijo -->
+    <div class="contenedor">
+        <p>Este párrafo es HIJO directo del div</p>
+        <span>
+            <p>Este párrafo es NIETO (no hijo directo)</p>
+        </span>
+    </div>
+    
+    <ul class="menu">
+        <li>Elemento 1 (hijo directo)</li>
+        <li>Elemento 2 (hijo directo)</li>
+        <div>
+            <li>Elemento 3 (no hijo directo)</li>
+        </div>
+    </ul>
+</body>
+</html>

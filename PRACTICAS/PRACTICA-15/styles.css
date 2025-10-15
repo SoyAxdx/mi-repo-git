@@ -1,0 +1,45 @@
+/* Elementos de BLOQUE - ocupan línea completa */
+h1, h2, h3, p, div {
+    font-family: Verdana;
+    color: #333333;
+    border: 2px solid blue;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #f0f8ff;
+}
+
+/* Estilo específico para h1 como en el ejemplo */
+h1 {
+    font-family: Verdana;
+    color: #FFFFFF;
+    text-decoration: none;
+    border: none;
+    font-size: 90%;
+    background-color: #666666;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Elementos de LÍNEA - solo ocupan su contenido */
+a, strong, em, span, input, button {
+    font-family: Arial;
+    color: #006600;
+    border: 1px solid green;
+    background-color: #f0fff0;
+    padding: 5px;
+    margin: 2px;
+}
+
+/* Contenedor principal */
+.contenedor {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ccc;
+}
+
+/* Para mostrar la diferencia visual */
+p {
+    background-color: #fff0f0;
+}

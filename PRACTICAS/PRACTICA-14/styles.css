@@ -1,0 +1,87 @@
+/* Header con bordes redondeados */
+header {
+    background-color: gray;
+    border: 5px solid chartreuse;
+    width: 770px;
+    height: 100px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    margin: 20px auto;
+}
+
+/* UNIDADES RELATIVAS */
+.caja.em {
+    width: 20em;
+    height: 3em;
+    background-color: lightblue;
+    margin: 1em;
+    padding: 1em;
+}
+
+.caja.porcentaje {
+    width: 50%;
+    height: 60px;
+    background-color: lightgreen;
+    margin: 10px;
+    padding: 2%;
+}
+
+.caja.px {
+    width: 300px;
+    height: 80px;
+    background-color: lightcoral;
+    margin: 15px;
+    padding: 20px;
+}
+
+/* UNIDADES ABSOLUTAS */
+.caja.pulgadas {
+    width: 3in;
+    height: 1in;
+    background-color: lightyellow;
+    margin: 0.2in;
+    padding: 0.1in;
+}
+
+.caja.centimetros {
+    width: 8cm;
+    height: 2cm;
+    background-color: lightpink;
+    margin: 0.5cm;
+    padding: 0.3cm;
+    line-height: 1.5;
+}
+
+.caja.puntos {
+    width: 200pt;
+    height: 60pt;
+    background-color: lightsteelblue;
+    margin: 10pt;
+    padding: 8pt;
+    font-size: 12pt;
+}
+
+/* MÁRGENES Y RELLENOS */
+.caja-margen {
+    width: 300px;
+    height: 100px;
+    background-color: #f0f0f0;
+    margin: 25px;      /* MARGEN exterior */
+    padding: 20px;     /* PADDING interior */
+    border: 3px solid #333;
+}
+
+/* Estilos generales */
+.contenedor {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border: 2px solid #ccc;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #333;
+}

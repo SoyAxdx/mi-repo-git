@@ -1,0 +1,26 @@
+/* Selector Hijo - solo enlaces que son hijos DIRECTOS de p */
+p > a {
+    font-size: 18px;
+    color: #60f;
+    font-family: tahoma;
+    text-decoration: none;
+    background-color: lightyellow;
+    padding: 10px;
+    display: inline-block;
+}
+
+/* Selector Adyacente - elemento INMEDIATAMENTE después */
+h2 + p {
+    color: red;
+    font-weight: bold;
+    background-color: lightblue;
+    padding: 10px;
+}
+
+.contenedor + span {
+    color: green;
+    font-size: 16px;
+    background-color: lightgreen;
+    padding: 8px;
+    display: inline-block;
+}

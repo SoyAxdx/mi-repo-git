@@ -1,0 +1,30 @@
+/* Selector de Clase - puede reutilizarse */
+.formato {
+    color: red;
+    font-family: tahoma;
+    font-size: 24pt;
+    text-align: center;
+}
+
+/* Otra clase */
+.texto-especial {
+    background-color: lightgreen;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.contenedor {
+    border: 2px solid blue;
+    padding: 15px;
+    margin: 10px 0;
+}
+
+/* Selector de ID - único en la página */
+#unico {
+    color: purple;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: yellow;
+    padding: 15px;
+    text-align: center;
+}

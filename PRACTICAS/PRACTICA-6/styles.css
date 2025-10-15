@@ -1,0 +1,31 @@
+/* Selector Universal */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    color: blue;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+/* Selector de Etiqueta para h1 */
+h1 {
+    color: red;
+}
+
+/* Selector de Etiqueta para p */
+p {
+    color: green;
+}
+
+/* Selector de Etiqueta para h2 */
+h2 {
+    color: purple;
+}
+
+/* Selector de Etiqueta para h3 */
+h3 {
+    color: orange;
+}

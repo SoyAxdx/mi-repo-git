@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica 2: Estilos Internos</title>
+    
+    <!-- ESTILOS INTERNOS (Embedded) -->
+    <style>
+        body {
+            background-color: #ff0000;
+        }
+        p {
+            font-family: 'Tahoma';
+            font-size: 24px;
+            font-weight: bold;
+            text-align: center;
+        }
+        .ejemplo {
+            background-color: white;
+            padding: 20px;
+            margin: 10px 0;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Práctica 2: Estilos Internos (Embedded CSS)</h1>
+    
+    <div class="ejemplo">
+        <h2>Ejemplo 1: Estilos Internos</h2>
+        <code>
+&lt;style&gt;
+body {
+    background-color: #ff0000;
+}
+p {
+    font-family: 'Tahoma';
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+&lt;/style&gt;
+        </code>
+        
+        <p>Este párrafo tiene los estilos definidos en el HEAD</p>
+    </div>
+
+    <div class="ejemplo">
+        <h2>Ejemplo 2: Estilos Externos</h2>
+        <code>&lt;link href="styles.css" rel="stylesheet" type="text/css"/&gt;</code>
+        <p>Este párrafo usa estilos externos desde styles.css</p>
+    </div>
+</body>
+</html>

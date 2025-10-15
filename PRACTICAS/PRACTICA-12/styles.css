@@ -1,0 +1,39 @@
+/* Selector Adyacente - elemento INMEDIATAMENTE después */
+h1 + h2 {
+    color: #0000ff;
+    font-family: tahoma;
+    background-color: lightyellow;
+    padding: 10px;
+}
+
+p + h3 {
+    color: red;
+    font-weight: bold;
+    background-color: lightblue;
+    padding: 8px;
+}
+
+/* Agrupación de reglas CSS */
+.caja1, .caja2, .caja3 {
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilos individuales para cada caja */
+.caja1 {
+    background-color: lightgreen;
+    color: darkgreen;
+}
+
+.caja2 {
+    background-color: lightcoral;
+    color: darkred;
+}
+
+.caja3 {
+    background-color: lightsteelblue;
+    color: darkblue;
+}

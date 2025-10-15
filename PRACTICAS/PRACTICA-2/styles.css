@@ -1,0 +1,37 @@
+/* Estilos Externos para la Práctica 2 */
+
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+h2 {
+    color: #0066cc;
+}
+
+.ejemplo {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin: 15px 0;
+    background: #f9f9f9;
+}
+
+code {
+    background: #2d2d2d;
+    color: white;
+    padding: 10px;
+    display: block;
+    margin: 10px 0;
+    font-family: monospace;
+}
+
+p {
+    margin: 10px 0;
+}

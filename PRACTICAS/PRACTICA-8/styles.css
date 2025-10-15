@@ -1,0 +1,27 @@
+/* Selector en descendencia - solo enlaces dentro de p */
+p a {
+    color: blue;
+    font-family: Tahoma;
+    font-size: 18pt;
+    text-decoration: none;
+}
+
+/* Selector de clase */
+.destacado {
+    background-color: yellow;
+    padding: 15px;
+    border: 2px solid orange;
+}
+
+.importante {
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* Selector de clase con descendencia */
+.contenedor .especial {
+    background-color: lightblue;
+    padding: 10px;
+    border-radius: 5px;
+}
